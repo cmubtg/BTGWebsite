@@ -25,7 +25,7 @@ function Footer(props) {
           </a>
         </div>
         <div className="social right">
-          <a
+          {/* <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,9 +33,9 @@ function Footer(props) {
             <span className="icon">
               <i className="fab fa-twitter" />
             </span>
-          </a>
+          </a> */}
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/cmubtg"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ function Footer(props) {
             </span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/cmubtg"
             target="_blank"
             rel="noopener noreferrer"
           >

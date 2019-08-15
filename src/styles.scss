@@ -12,9 +12,7 @@ $dark: #363636;
 // TEXT
 $text: #4A4A4A;
 $link: #3273DC;
-$body-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  "Helvetica", "Arial", sans-serif;
+$body-family: "Inter", sans-serif;
 $title-family: false;
 $button-family: false;
 
@@ -37,3 +35,10 @@ $section-padding-large: 9rem 1.5rem;
 
 // IMPORT BULMA
 @import "~bulma/bulma.sass";
+
+// IMPORT INTER UI
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}

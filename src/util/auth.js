@@ -5,10 +5,11 @@ import "firebase/auth";
 
 // Replace with your own Firebase credentials
 firebase.initializeApp({
-  apiKey: "AIzaSyBkkFF0XhNZeWuDmOfEhsgdfX1VBG7WTas",
-  authDomain: "divjoy-demo.firebaseapp.com",
-  projectId: "divjoy-demo",
-  appID: "divjoy-demo"
+  apiKey: "AIzaSyBcUNY2QRSbuYcE_zJpEBe7HGm6qQnrEKc",
+  authDomain: "cmubtg-8c1e4.firebaseapp.com",
+  databaseURL: "https://cmubtg-8c1e4.firebaseio.com",
+  projectId: "cmubtg-8c1e4",
+  appId: "1:689152034039:web:b77febc1ca7e1803"
 });
 
 const authContext = createContext();
