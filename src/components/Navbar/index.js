@@ -18,7 +18,9 @@ function Navbar(props) {
             </Link>
           </div>
           <div
-            className={"navbar-burger burger" + (menuOpen ? " is-active" : "")}
+            className={
+              "navbar-burger burger" + (menuOpen ? " is-active" : "")
+            }
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span />

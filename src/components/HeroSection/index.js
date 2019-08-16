@@ -23,12 +23,6 @@ function HeroSection(props) {
               {props.buttonText}
             </SectionButton>
           </div>
-          <div className="column is-1" />
-          <div className="column">
-            <figure className="HeroSection__image image">
-              <img src={props.image} alt="Illustration" />
-            </figure>
-          </div>
         </div>
       </div>
     </Section>

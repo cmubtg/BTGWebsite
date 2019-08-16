@@ -15,6 +15,7 @@ import Footer from "./../../components/Footer";
 import analytics from "./../../util/analytics.js";
 import { ProvideAuth } from "./../../util/auth.js";
 import "./styles.scss";
+import btgLogo from "../_app/btg-logo-white.svg";
 
 function App(props) {
   return (
@@ -22,9 +23,9 @@ function App(props) {
       <Router>
         <>
           <Navbar
-            color="white"
+            color="black"
             spaced={true}
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo={btgLogo}
           />
 
           <Switch>

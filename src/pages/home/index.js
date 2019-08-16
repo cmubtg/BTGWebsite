@@ -23,7 +23,7 @@ function HomePage(props) {
           router.push("/pricing");
         }}
       />
-      <ClientsSection color="light" size="normal" title="" subtitle="" />
+      {/* <ClientsSection color="light" size="normal" title="" subtitle="" /> */}
       <FeaturesSection
         color="white"
         size="medium"
