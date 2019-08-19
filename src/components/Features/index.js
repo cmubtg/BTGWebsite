@@ -15,11 +15,11 @@ function Features(props) {
           }
           key={index}
         >
-          <div className="Features__item has-text-centered">
-            <figure className="Features__image image">
+          <div className="Features__item">
+            {/* <figure className="Features__image image">
               <img src={item.image} alt={item.title} />
-            </figure>
-            <h1 className="title is-4 is-spaced has-text-dark">{item.title}</h1>
+            </figure> */}
+            <h1 className="title is-6 is-spaced has-text-dark">{item.title}</h1>
             <h2 className="subtitle is-6 has-text-dark">{item.body}</h2>
           </div>
         </div>

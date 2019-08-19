@@ -24,15 +24,15 @@ function HomePage(props) {
       <FeaturesSection
         color="white"
         size="medium"
-        title="Features"
-        subtitle="All the features you need to move faster"
+        title="What we do"
+        subtitle="Helping our members grow as students and developers"
       />
-      <TestimonialsSection
+      {/* <TestimonialsSection
         color="white"
         size="medium"
         title="Here's what people are saying"
         subtitle=""
-      />
+      /> */}
       <CtaSection
         color="primary"
         size="medium"

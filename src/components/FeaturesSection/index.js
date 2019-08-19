@@ -16,33 +16,27 @@ function FeaturesSection(props) {
         />
         <div className="FeaturesSection__box box">
           <Features
-            columns={2}
+            columns={3}
             items={[
               {
-                title: "Lorem Ipsum",
+                title: "Weekly lectures",
                 body:
-                  "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-                image: "https://uploads.divjoy.com/undraw-fish_bowl_uu88.svg"
+                  "We provide instruction in web development, machine learning, database management, API usage, and much more.",
+                image:
+                  "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teaching_f1cm.svg"
               },
               {
-                title: "Lorem Ipsum",
+                title: "Specialized research groups",
                 body:
-                  "Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus.",
+                  "Members can apply to focused committes in machine learning or web development for further skill development and advanced projects.",
                 image: "https://uploads.divjoy.com/undraw-directions_x53j.svg"
               },
               {
-                title: "Lorem Ipsum",
+                title: "Awesome lectures",
                 body:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper",
+                  "The CMU BTG regularly invites industry speakers--developers, project managers, and product leaders from major Silicon Valley companies--for exclusive events.",
                 image:
                   "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg"
-              },
-              {
-                title: "Lorem Ipsum",
-                body:
-                  "Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo",
-                image:
-                  "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
               }
             ]}
           />
