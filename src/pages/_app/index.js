@@ -9,6 +9,8 @@ import Divider from "./../../components/Divider";
 import Footer from "./../../components/Footer";
 import analytics from "./../../util/analytics.js";
 import { ProvideAuth } from "./../../util/auth.js";
+import btgLogo from "./btg-logo-white.svg";
+import btgLogoGray from "./btg-logo-gray.svg";
 import "./styles.scss";
 
 function App(props) {
@@ -16,11 +18,7 @@ function App(props) {
     <ProvideAuth>
       <Router>
         <>
-          <Navbar
-            color="primary"
-            spaced={true}
-            logo="https://uploads.divjoy.com/logo-white.svg"
-          />
+          <Navbar color="primary" spaced={true} logo={btgLogo} />
 
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -53,7 +51,7 @@ function App(props) {
           <Footer
             color="white"
             size="medium"
-            logo="https://uploads.divjoy.com/logo.svg"
+            logo={btgLogoGray}
             description="We build the cutting edge."
             copyright="© Carnegie Mellon Business Technology Group 2019"
           />

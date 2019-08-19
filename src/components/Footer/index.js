@@ -34,7 +34,7 @@ function Footer(props) {
               <div className="column is-4" />
               <div className="column is-4">
                 <div className="menu">
-                  <p className="menu-label">Company</p>
+                  <p className="menu-label">Organization</p>
                   <ul className="menu-list">
                     <li>
                       <Link to="/about">About</Link>
@@ -60,7 +60,7 @@ function Footer(props) {
                   <ul className="menu-list">
                     <li>
                       <a
-                        href="https://facebook.com"
+                        href="https://facebook.com/cmubtg"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -73,7 +73,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://instagram.com"
+                        href="https://instagram.com/cmubtg"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

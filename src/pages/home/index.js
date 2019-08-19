@@ -14,11 +14,11 @@ function HomePage(props) {
       <HeroSection
         color="primary"
         size="large"
-        title="Your landing page title here"
-        subtitle="This landing jhkjhkjhkjhperfect for showing off your awesome product and driving people to sign up for a paid plan."
-        buttonText="Start Free Trial"
+        title="We build the cutting edge"
+        subtitle="CMU’s Business Technology Group pioneers research in applied business technology that improves work, play, and education."
+        buttonText="Learn more"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/signup");
         }}
       />
       <FeaturesSection
@@ -36,11 +36,11 @@ function HomePage(props) {
       <CtaSection
         color="primary"
         size="medium"
-        title="Ready to get started?"
+        title="Learn more by joining our weekly newsletter"
         subtitle=""
-        buttonText="Get Started"
+        buttonText="Subscribe now"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/signup");
         }}
       />
     </>
