@@ -21,20 +21,20 @@ function FeaturesSection(props) {
               {
                 title: "Weekly lectures",
                 body:
-                  "We provide instruction in web development, machine learning, database management, API usage, and much more.",
+                  "Technical and non-technical majors are all welcome to weekly seminars in web development, machine learning, database management, API development, and much more.",
                 image:
                   "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teaching_f1cm.svg"
               },
               {
                 title: "Specialized research groups",
                 body:
-                  "Members can apply to focused committes in machine learning or web development for further skill development and advanced projects.",
+                  "Apply to focused committes in machine learning or web development for advanced, group-oriented projects.",
                 image: "https://uploads.divjoy.com/undraw-directions_x53j.svg"
               },
               {
-                title: "Awesome lectures",
+                title: "Awesome guest speakers",
                 body:
-                  "The CMU BTG regularly invites industry speakers--developers, project managers, and product leaders from major Silicon Valley companies--for exclusive events.",
+                  "Get a chance to hear from developers, product managers, and industry leaders from major companies in exclusive events.",
                 image:
                   "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg"
               }
