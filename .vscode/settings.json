@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1e7a21b7-260f-4955-be3c-9bea6f2cd66b/resourceGroups/cmubtg/providers/Microsoft.Web/sites/cmubtg",
+    "appService.deploySubpath": ""
+}
