@@ -58,8 +58,7 @@ function TeamBiosSection(props) {
                 "William is the Head of Curriculum at CMUBTG. He is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
-              linkedinUrl:
-                "https://www.linkedin.com/in/william-zeng-364791149/"
+              linkedinUrl: "https://www.linkedin.com/in/william-zeng-364791149/"
             },
             {
               avatar: "https://i.imgur.com/2sTNNA0.jpg",
@@ -80,8 +79,18 @@ function TeamBiosSection(props) {
                 "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
-              linkedinUrl:
-                "https://www.linkedin.com/in/matthew-guo-003781173/"
+              linkedinUrl: "https://www.linkedin.com/in/matthew-guo-003781173/"
+            },
+            {
+              avatar:
+                "https://media.licdn.com/dms/image/C4E03AQGMtPZd9DYpTQ/profile-displayphoto-shrink_800_800/0?e=1571875200&v=beta&t=LBFvySKsbMHFYT7ZK-8-Kff9twxgWfU8_Irrs3BgHhM",
+              name: "Navid Mamoon",
+              role: "Head of Communications",
+              bio:
+                "Navid is Head of Communication at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out.",
+              twitterUrl: "https://twitter.com",
+              facebookUrl: "https://facebook.com",
+              linkedinUrl: "https://www.linkedin.com/in/matthew-guo-003781173/"
             }
           ]}
         />

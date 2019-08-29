@@ -1,3 +1,7 @@
 {
-    "appService.deploySubpath": ""
+    "appService.deploySubpath": "",
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1e7a21b7-260f-4955-be3c-9bea6f2cd66b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/cmubtg-website-s19"
 }
