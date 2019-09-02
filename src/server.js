@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Add your AWS credentials here
 aws.config.update({
-  accessKeyId: "AKIAIHZMKGHINTYLXHNA",
-  secretAccessKey: "k+IncM2nJ9aMUg++DaNmnm+CM9ZgqfKVgRsxx7Qg",
+  accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY,
+  secretAccessKey: process.env.REACT_APP_AWS_SECRET_ACCESS_KEY,
   region: "us-east-1"
 });
 

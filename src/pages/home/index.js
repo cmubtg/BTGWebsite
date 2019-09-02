@@ -15,7 +15,7 @@ function HomePage(props) {
         color="primary"
         size="large"
         title="We build the cutting edge"
-        subtitle="CMU’s Business Technology Group pioneers research in applied business technology that improves work, play, and education."
+        subtitle="CMU’s Business Technology Group specializes in applied technology that improves work, play, and education."
         buttonText="Learn more"
         buttonOnClick={() => {
           router.push("/signup");

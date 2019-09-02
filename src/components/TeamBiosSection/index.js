@@ -58,8 +58,7 @@ function TeamBiosSection(props) {
                 "William is the Head of Curriculum at CMUBTG. He is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
-              linkedinUrl:
-                "https://www.linkedin.com/in/william-zeng-364791149/"
+              linkedinUrl: "https://www.linkedin.com/in/william-zeng-364791149/"
             },
             {
               avatar: "https://i.imgur.com/2sTNNA0.jpg",
@@ -69,7 +68,7 @@ function TeamBiosSection(props) {
                 "Yvonne is the Head of Finance at CMUBTG. She is a sophomore studying business. She enjoys hikes and lakes.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
-              linkedinUrl: "https://linkedin.com"
+              linkedinUrl: "https://www.linkedin.com/in/yvonne-liang-1b9a56190/"
             },
             {
               avatar:
@@ -80,8 +79,18 @@ function TeamBiosSection(props) {
                 "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh.",
               twitterUrl: "https://twitter.com",
               facebookUrl: "https://facebook.com",
-              linkedinUrl:
-                "https://www.linkedin.com/in/matthew-guo-003781173/"
+              linkedinUrl: "https://www.linkedin.com/in/matthew-guo-003781173/"
+            },
+            {
+              avatar:
+                "https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-1/29572759_2073740146238555_7436951391639051433_n.jpg?_nc_cat=102&_nc_oc=AQnXkGno_lzXV-m8zPG0MeDAFXNu6rzDwg7uaPSPwcBVBe-n0ktDeGYnsAAZvJdmmgU&_nc_ht=scontent.fphl2-3.fna&oh=1b16cc8107696e50f6a80bc25a8725aa&oe=5DD18F27",
+              name: "Navid Mamoon",
+              role: "Head of Communications",
+              bio:
+                "Navid is Head of Communication at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out.",
+              twitterUrl: "https://twitter.com",
+              facebookUrl: "https://facebook.com",
+              linkedinUrl: "https://www.linkedin.com/in/navid-mamoon/"
             }
           ]}
         />
