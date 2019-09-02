@@ -83,7 +83,7 @@ function TeamBiosSection(props) {
             },
             {
               avatar:
-                "https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-1/29572759_2073740146238555_7436951391639051433_n.jpg?_nc_cat=102&_nc_oc=AQnXkGno_lzXV-m8zPG0MeDAFXNu6rzDwg7uaPSPwcBVBe-n0ktDeGYnsAAZvJdmmgU&_nc_ht=scontent.fphl2-3.fna&oh=1b16cc8107696e50f6a80bc25a8725aa&oe=5DD18F27",
+                "https://scontent.fagc3-1.fna.fbcdn.net/v/t1.0-1/29572759_2073740146238555_7436951391639051433_n.jpg?_nc_cat=102&_nc_oc=AQlggmCAozS5pF1unWpIsqzT5CwDvc_9Tk3DZeDak5UjZv5tQTJ-qyX-yL62vIvt-6g&_nc_ht=scontent.fagc3-1.fna&oh=3fb29514c565829cd57b416ccd999e85&oe=5DD18F27",
               name: "Navid Mamoon",
               role: "Head of Communications",
               bio:

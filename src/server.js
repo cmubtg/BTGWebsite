@@ -17,10 +17,10 @@ aws.config.update({
 // Load AWS SES
 const ses = new aws.SES({ apiVersion: "2010-12-01" });
 // Add your email address here
-const to = ["ericc2@andrew.cmu.edu"];
+const to = [""];
 // Also add your email address as the sender
 // Must belong to a verified SES account
-const from = "ericc2@andrew.cmu.edu";
+const from = "";
 
 app.post("/api/contact/subscribe", function(req, res) {
   ses.sendEmail(
